@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mathFlash.css">
+    
+    <title>Math Flashcards app</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Mathematical Flashcards Application</h1>
+        <div class="container2">
+            <h3>Please enter answer for below</h3>
+            <p id="calc"></p>
+            <input id="user"></input>
+            </br>
+            </br>
+            <button type="submit" onclick="userAns(), compare()">Submit</button>
+            <!--<button type="button" onclick="window.location.reload()">Get new Card</button>-->
+            <button type="reset" onclick="newCard()">New card</button>
+            <p id="userCalc"></p>
+            <p id="pcCalc"></p>
+            <h3 id="final"></h3>
+        </div>
+    </div>
+ 
+    <script src="mathFlash.js"></script>
+</body>
+</html>
